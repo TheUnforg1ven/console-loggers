@@ -1,2 +1,2 @@
 # console-loggers
-Js method to use betterttv emotes in console
+Gives you an ability to use betterttv emotes in console, for home use only :>
