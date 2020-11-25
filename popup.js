@@ -135,6 +135,7 @@ function overrideConsole(copy, ...args){
     const _privateError = console.error;
     const _privateWarn = console.warn;
     const _privateInfo = console.info;
+    const _privateGroup = console.group;
 
     getEmotes(userEmotes, channelEmotes);
 
@@ -160,5 +161,11 @@ function overrideConsole(copy, ...args){
         const copy = [...args];
         overrideConsole(copy, ...args);
         _privateWarn.apply(console, copy);
+    };
+
+    console.group = (...args) => {
+        const copy = [...args];
+        overrideConsole(copy, ...args);
+        _privateGroup.apply(console, copy);
     };
 })(userEmotes, channelEmotes);
