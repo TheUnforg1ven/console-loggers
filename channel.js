@@ -4,6 +4,6 @@ export async function getChannelId(){
     
     let channelId = await Promise.resolve(test)
                                     .then(value => value['data']['0']['id']);
-                                    
-    return channelId;
+
+    return channelId ?? "No such streamer :C";
 }
