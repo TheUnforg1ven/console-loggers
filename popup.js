@@ -1,7 +1,11 @@
 import * as Emotes from './emotes.js'
+import * as Channel  from './channel.js'
 
 const userEmotes = ['https://api.betterttv.net/3/cached/frankerfacez/users/twitch/70075625'];
 const channelEmotes = ['https://api.betterttv.net/3/cached/users/twitch/70075625'];
+
+Channel.getChannelId()
+        .then(value => console.log(value));
 
 (function(userEmotes, channelEmotes) {
     const _privateLog = console.log;
