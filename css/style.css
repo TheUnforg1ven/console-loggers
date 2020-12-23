@@ -105,7 +105,7 @@ img {
 .add-streamer i{
   position: absolute;
   font-size: 40px;
-  color: #4162f6;
+  color: #020308;
 }
 
 .add-streamer input{
@@ -119,22 +119,22 @@ img {
   padding-left:10px;
 }
 .add-streamer input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #4162f6;
+  color: #020308;
   font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
 }
 .add-streamer input::-moz-placeholder { /* Firefox 19+ */
-  color: #4162f6;
+  color: #020308;
   font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
 }
 .add-streamer input:-ms-input-placeholder { /* IE 10+ */
-  color: #4162f6;
+  color: #020308;
   font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
 }
 .add-streamer input:-moz-placeholder { /* Firefox 18- */
-  color: #4162f6;
+  color: #020308;
   font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
 }
